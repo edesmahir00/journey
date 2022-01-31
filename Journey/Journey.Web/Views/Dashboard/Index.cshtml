@@ -1,0 +1,72 @@
+﻿@using Journey.Business.Model.Response
+@model DashboardViewModel
+@{
+    ViewData["Title"] = "Bilet Ara";
+}
+
+
+<link rel="stylesheet" href="~/css/dasboard-index.css" />
+<link rel="stylesheet" href="~/css/select2.css" />
+
+
+<div class="row">
+    <div class="container" style="max-width: 350px;margin-top: 50px;">
+        <div class="form-group">
+
+            <form id="journeySearch" method="post" asp-controller="Journey" asp-action="SearchJourney">
+
+            <input type="hidden" id="DeviceId" asp-for="DeviceId" />
+            <input type="hidden" id="SessionId" asp-for="SessionId" />
+
+            <div class="form-group">
+                <label>Nereden</label>
+                <select class="form-control select2" style="width:100% !important;" asp-for="FromId" asp-items="Model.FromLocations">
+                </select>
+            </div>
+
+            <div class="form-group" style="text-align: right !important; margin: 0px auto !important;">
+                <a class="btn btn-btn-custom-label" onclick="changePlaces()">
+                    <span class="input-group-addon">
+                       <svg style="width: 20px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="retweet" class="svg-inline--fa fa-retweet fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M629.657 343.598L528.971 444.284c-9.373 9.372-24.568 9.372-33.941 0L394.343 343.598c-9.373-9.373-9.373-24.569 0-33.941l10.823-10.823c9.562-9.562 25.133-9.34 34.419.492L480 342.118V160H292.451a24.005 24.005 0 0 1-16.971-7.029l-16-16C244.361 121.851 255.069 96 276.451 96H520c13.255 0 24 10.745 24 24v222.118l40.416-42.792c9.285-9.831 24.856-10.054 34.419-.492l10.823 10.823c9.372 9.372 9.372 24.569-.001 33.941zm-265.138 15.431A23.999 23.999 0 0 0 347.548 352H160V169.881l40.416 42.792c9.286 9.831 24.856 10.054 34.419.491l10.822-10.822c9.373-9.373 9.373-24.569 0-33.941L144.971 67.716c-9.373-9.373-24.569-9.373-33.941 0L10.343 168.402c-9.373 9.373-9.373 24.569 0 33.941l10.822 10.822c9.562 9.562 25.133 9.34 34.419-.491L96 169.881V392c0 13.255 10.745 24 24 24h243.549c21.382 0 32.09-25.851 16.971-40.971l-16.001-16z"></path></svg>
+                    </span>
+                </a>
+            </div>
+
+            <div class="form-group">
+                <label>Nereye</label>
+                <select class="form-control select2" style="width:100% !important;" asp-for="ToId" asp-items="Model.ToLocations">
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label>Tarih</label>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="input-group" style=" margin: 0; top: 50%; transform: translateY(-50%); ">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                            <input type="date" class="form-control date-depart" placeholder="depart" asp-for="DepartureDate"/>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="col-md-12 btn btn-primary btn-custom-label" onclick="setDay('today')">Bugün</label>
+                        <label class="col-md-12 btn btn-primary btn-custom-label" onclick="setDay('tomorrow')" style="margin-top:2px;">Yarın</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary" style=" width: 142px;margin-top:20px;" onclick="searchTicket()">Bilet Bul</button>
+            </div>
+
+            </form>
+        
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts{
+    <script src="/js/select2.js"></script>
+    <script src="/js/dashboard-index.js"></script>
+}

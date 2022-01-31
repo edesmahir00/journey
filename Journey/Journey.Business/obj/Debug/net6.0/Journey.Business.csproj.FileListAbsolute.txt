@@ -1,0 +1,12 @@
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\Journey.Business.csproj.AssemblyReference.cache
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\Journey.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\Journey.Business.AssemblyInfoInputs.cache
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\Journey.Business.AssemblyInfo.cs
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\Journey.Business.csproj.CoreCompileInputs.cache
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\bin\Debug\net6.0\Journey.Business.deps.json
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\bin\Debug\net6.0\Journey.Business.dll
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\bin\Debug\net6.0\ref\Journey.Business.dll
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\bin\Debug\net6.0\Journey.Business.pdb
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\Journey.Business.dll
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\ref\Journey.Business.dll
+C:\Users\medes\Desktop\Projelerim\Special Projects\Mahir\Journey\Journey.Business\obj\Debug\net6.0\Journey.Business.pdb

@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Bilet Seç";
+}
+
+@model AvaiableJourneysViewModel
+
+<link rel="stylesheet" href="~/css/journey.css" />
+
+
+<div class="container" style="width: 500px;">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="panel panel-default" style=" margin-top: 20px; background-color: #5e5ed1; color: white; ">
+                <div class="panel-body text-center">
+                    <p><a class="pull-left" style="color: white;" href="/dashboard/index">
+                      <svg style="width: 20px; margin-left: 20px; float: left; margin-top: 10px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg>
+                        </a></p>
+                    <p>@Model.FromLocationText - @Model.ToLocationText <br />@string.Format("{0:D}",Model.DepartureDate)</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-12" style=" margin-bottom: 20px; ">
+            <input type="search" class="form-control" id="input-search" placeholder="Arama Yap ...">
+        </div>
+
+        <div class="searchable-container" style=" height: 325px; overflow-y: scroll; ">
+
+            @foreach (var item in Model.AvaiableJourneysList)
+            {
+                <div class="items col-xs-12 col-sm-12 col-md-12 col-lg-12 clearfix">
+                    <div class="info-block block-info clearfix row">
+                        <div class="col-md-9">
+                            <table class="table table-responsive">
+                                <tr><td>Kalkış</td><td></td><td>Varış</td></tr>
+                                <tr>
+                                    <td>@item.DepartureTime.ToString("HH:mm") </td>
+                                    <td>
+                                        <span class="glyphicon glyphicon-arrow-right"></span>
+                                    </td>
+                                    <td>@item.ArrivalTime.ToString("HH:mm")</td>
+                                </tr>
+                                <tr class=""><td colspan="3">@item.FromName - @item.ToName</td></tr>
+                            </table>
+                        </div>
+                        <div class="col-md-3" style="margin-top: 44px;">
+                            <label class="custom-price-label">@item.Price TL</label>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+@section Scripts{
+  <script src="/lib/jquery/dist/jquery.min.js"></script>
+  <script src="/js/journey.js"></script>
+}
