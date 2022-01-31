@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NEm8TMluf9DVWothiE0t590HawuxkDYphKQ2rYC3FTka7WhhXG7llaPNw96FET06d48Ahbi0Pwv1JiQ/vbdgrQ==",
+  "dgSpecHash": "u2FZYO3fElA/eQEHPUCtBDbkxeWFeLO3oX4/MgiKFgeFBsNJn3FdadybNx5M8yJj/bToVgzb91Avc9d0lj6iEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Web\\Journey.Web.csproj",
+  "projectFilePath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Web\\Journey.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\medes\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

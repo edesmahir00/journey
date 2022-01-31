@@ -72,11 +72,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Web\\Journey.Web.csproj",
+      "projectUniqueName": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Web\\Journey.Web.csproj",
       "projectName": "Journey.Web",
-      "projectPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Web\\Journey.Web.csproj",
+      "projectPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Web\\Journey.Web.csproj",
       "packagesPath": "C:\\Users\\medes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Web\\obj\\",
+      "outputPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -96,8 +96,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Business\\Journey.Business.csproj": {
-              "projectPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Business\\Journey.Business.csproj"
+            "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Business\\Journey.Business.csproj": {
+              "projectPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Business\\Journey.Business.csproj"
             }
           }
         }

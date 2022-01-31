@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Business\\Journey.Business.csproj": {}
+    "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Business\\Journey.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Business\\Journey.Business.csproj": {
+    "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Business\\Journey.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Business\\Journey.Business.csproj",
+        "projectUniqueName": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Business\\Journey.Business.csproj",
         "projectName": "Journey.Business",
-        "projectPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Business\\Journey.Business.csproj",
+        "projectPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Business\\Journey.Business.csproj",
         "packagesPath": "C:\\Users\\medes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\Mahir\\Journey\\Journey.Business\\obj\\",
+        "outputPath": "C:\\Users\\medes\\Desktop\\Projelerim\\Special Projects\\github\\journey\\Journey\\Journey.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

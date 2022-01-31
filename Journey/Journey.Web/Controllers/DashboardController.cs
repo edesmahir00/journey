@@ -15,7 +15,7 @@ namespace Journey.Web.Controllers
         private readonly ISessionService _sessionService;
         private readonly ILocationService _locationService;
 
-        public DashboardController(IOptions<AppSettings> options, ISessionService sessionService, ILocationService locationService) // IHttpClientFactory clientFactory
+        public DashboardController(IOptions<AppSettings> options, ISessionService sessionService, ILocationService locationService)
         {
             _options = options;
             _sessionService = sessionService;
@@ -40,7 +40,6 @@ namespace Journey.Web.Controllers
             _options.Value.OBiletApiSettings.Authorization);
 
             var locations = await GetBusLocation(null, responseService.Data.SessionId, responseService.Data.DeviceId);
-            //var locationsByFilter = await GetBusLocation("ist", responseService.Data.SessionId, responseService.Data.DeviceId);
 
             var response = new DashboardViewModel();
             response.FromLocations = await GetLocationSelectList(locations.Data, cookieJourney?.FromId == null ? "" : cookieJourney.FromId.ToString());
